@@ -1,0 +1,123 @@
+/* 801px ~ 1064px */
+@media screen and (min-width:801px) and (max-width:1064px) {
+    
+    #header .inner { position:relative;
+        left:-10%;
+    }
+    #header .navi li > a { width:120%; }
+    #header .navi2 { width:130%; }
+    #header .navi2 li { margin-right:20px;}
+    #header .sns { display:none; }
+    #header .loginbox a { padding:10px;
+        position:relative;
+        top:-17px;
+    }
+
+    #section .inner {
+        width:100%;
+    }
+    #section .miniImg {
+        display:none;
+    }
+    #section .mininav table {
+        position:relative;
+        top:30px;
+        right:130px;
+        width:300px;
+    }
+
+    #section .minibanner img {
+        width:24%;
+    }
+
+    #footer .inner {
+        width:100%;
+    }
+    #footer .ftinfo,
+    #footer .fttext1,
+    #footer .fttext2,
+    #footer .fttext3 {
+        margin-left:30px;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+
+    #header .sns { display:none; }
+    #header .loginbox a { padding:10px;
+        position:relative;
+        top:-17px;
+        font-size:20px;
+    }
+    #header .navibox {
+        display:none;
+    }
+    #header .inner { position:relative; }
+    #header .logo {
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+
+    #section .inner {
+        width:100%;
+    }
+    #section .miniImg {
+        display:none;
+    }
+    #section .schedule table {
+        width:450px;
+    }
+    #section .mininav table {
+        position:relative;
+        top:30px;
+        right:70px;
+        width:250px;
+    }
+
+    #section .minibanner img {
+        width:24%;
+    }
+
+    #footer .inner {
+        width:100%;
+    }
+    #footer .ftinfo,
+    #footer .fttext1,
+    #footer .fttext2,
+    #footer .fttext3 {
+        margin-left:20px;
+    }
+
+}
+
+
+@media screen and (max-width:440px) {
+
+    #section .mininav {
+        display:none;
+    }
+
+    #footer .fttext1 {
+        margin-top:16px;
+    }
+    #footer .fttext2 {
+        display:none;
+    }
+    #footer .fttext3 {
+        margin-top:10px;
+    }
+    #footer .ftinfo,
+    #footer .fttext1,
+    #footer .fttext3 {
+        margin-left:35px;
+    }
+
+
+
+
+
+}
